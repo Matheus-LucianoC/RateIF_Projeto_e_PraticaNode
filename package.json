@@ -1,0 +1,20 @@
+{
+  "name": "rateif-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend Node.js do RateIF — web e mobile",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node backend/start-local.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check backend/app.js && node --check backend/start.js && node --check backend/start-local.js && node --check backend/env.js && node --check backend/store.js && node --check backend/security.js && node --check backend/schema.js && node --check backend/utils.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "mysql2": "^3.14.1"
+  }
+}

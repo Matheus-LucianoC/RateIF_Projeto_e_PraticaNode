@@ -1,0 +1,10 @@
+node_modules/
+mobile/node_modules/
+.env
+mobile/.env
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
+coverage/
+*.log
